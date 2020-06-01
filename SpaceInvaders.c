@@ -39,13 +39,12 @@ const unsigned char enemy_car[] ={
 
 };
 
-//---------------------- images -----------------------------
-
 #define carW             ((unsigned char)car[18])
 #define carH             ((unsigned char)car[22])
 #define enemy_carW        ((unsigned char)car[18])
 #define enemy_carH        ((unsigned char)car[22])
-	
+
+//---------------------------- declaration -----------------------------------
 unsigned long SW1,SW2;                       // input from PF4,PF0
 int player_x = 0, player_y ;			          //player position(x, y)
 int enemy_posi ,enemyMove1, enemyMove2;		 //enemies position and movement
